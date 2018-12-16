@@ -1,13 +1,7 @@
 package pers.phd.simplyprovider.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
-import java.util.logging.Logger;
+import org.springframework.web.bind.annotation.*;
+import pers.phd.simplyprovider.entity.User;
 
 
 /**
@@ -18,23 +12,24 @@ import java.util.logging.Logger;
  */
 @RestController
 public class SimplyController {
-    private Logger logger = Logger.getLogger(getClass().getName());
-
-    @Autowired
-    private DiscoveryClient discoveryClient;
 
     @GetMapping(path = "/hello")
     public String hello() {
-        System.out.println("client description:" + discoveryClient.description());
-        List<String> serviceList = discoveryClient.getServices();
-        for (String service : serviceList) {
-            System.out.println(service);
-        }
-        System.out.println();
-        List<ServiceInstance> serviceInstanceList = discoveryClient.getInstances("simply-provider");
-        for (ServiceInstance serviceInstance : serviceInstanceList) {
-            System.out.println(serviceInstance.getHost() + "," + serviceInstance.getPort() + "," + serviceInstance.getUri() + "," + serviceInstance.getScheme() + "," + serviceInstance.getServiceId() + "," + serviceInstance.getMetadata());
-        }
         return "Hello I am Simply provider!";
+    }
+
+    @GetMapping(path = "/hello1")
+    public String hello1(@RequestParam("name") String name) {
+        return "Hello " + name;
+    }
+
+    @GetMapping(path = "/hello2")
+    public User hello2(@RequestHeader("name") String name, @RequestHeader("age") Integer age) {
+        return new User(name, age);
+    }
+
+    @PostMapping(path = "/hello3")
+    public String hello3(@RequestBody User user) {
+        return "Hello " + user.getName() + "," + user.getAge();
     }
 }

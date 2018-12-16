@@ -1,4 +1,4 @@
-package pers.phd.simplyprovider.entity;
+package pers.phd.simply.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
