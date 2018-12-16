@@ -1,0 +1,62 @@
+spring:
+  application:
+    name: feign-consumer
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+#SIMPLY-PROVIDER:
+#  ribbon:
+#    # 连接Apache HttpClient使用的超时
+#    ConnectTimeout: 500
+#    # 间隔从源刷新服务器列表
+#    ServerListRefreshInterval: 2000
+#    # 读取Apache HttpClient使用的超时
+#    ReadTimeout: 2000
+#    # 是否可以为此客户端重试所有操作
+#    OkToRetryOnAllOperations: true
+#    # 要重试的下一个服务器的最大数量（不包括第一个服务器）
+#    MaxAutoRetriesNextServer: 2
+#    # 同一服务器上的最大重试次数（不包括第一次尝试）
+#    MaxAutoRetries: 1
+
+# 经过测试 好像 ribbon 和 Hystrix不能同时设置，否则会先进入到 ribbon中，然后因为找不到服务提供者实例而报错。
+
+# 设置断路器 全局超时时间
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+    #特定的方法 断路器设置
+#    hello:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 5000
+
+
+# feign启用断路器
+feign:
+  hystrix:
+    enabled: true
+  # feign 启用 请求/响应 压缩
+  compression:
+    request:
+      # 是否启用
+      enabled: true
+      # 指定压缩的请求数据类型 设置的这两个值都是默认值
+      mime-types: text/xml,application/xml,application/json
+      # 设置请求压缩的大小下限,只有超过这个大小的请求才会对其进行压缩
+      min-request-size: 2048
+# 定义 Feign 日志级别
+logging:
+  level:
+    pers:
+      phd:
+        feignconsume:
+          service: debug
