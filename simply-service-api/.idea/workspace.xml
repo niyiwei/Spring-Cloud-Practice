@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28269ea9-7fb5-4402-95b5-e44d49fdf620" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../feign-consume/src/main/java/pers/phd/feignconsume/configure/FeignFullLogConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../feign-consume/src/main/java/pers/phd/feignconsume/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../feign-consume/src/main/java/pers/phd/feignconsume/service/RefactorHelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simply-provider/src/main/java/pers/phd/simplyprovider/controller/RefactorHelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../simply-provider/src/main/java/pers/phd/simplyprovider/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/resources/application-standalone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-server/src/main/resources/application-standalone.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simply-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simply-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simply-provider/src/main/java/pers/phd/simplyprovider/SimplyProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simply-provider/src/main/java/pers/phd/simplyprovider/SimplyProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simply-provider/src/main/java/pers/phd/simplyprovider/controller/SimplyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simply-provider/src/main/java/pers/phd/simplyprovider/controller/SimplyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/phd/simply/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/phd/simply/service/HelloService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pers/phd/simply/service/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="460">
+              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,73 +112,6 @@
               <item name="simply-service-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="simply-service-api" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="simply-service-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simply-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simply-service-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simply-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simply-service-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simply-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simply-service-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simply-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simply-service-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simply-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pers" type="462c0819:PsiDirectoryNode" />
-              <item name="phd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simply-service-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simply-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pers" type="462c0819:PsiDirectoryNode" />
-              <item name="phd" type="462c0819:PsiDirectoryNode" />
-              <item name="simply" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simply-service-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simply-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pers" type="462c0819:PsiDirectoryNode" />
-              <item name="phd" type="462c0819:PsiDirectoryNode" />
-              <item name="simply" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simply-service-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simply-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pers" type="462c0819:PsiDirectoryNode" />
-              <item name="phd" type="462c0819:PsiDirectoryNode" />
-              <item name="simply" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -196,13 +121,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544969818433" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544970957832" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -232,16 +157,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544953317524</updated>
-      <workItem from="1544953322653" duration="4284000" />
+      <workItem from="1544953322653" duration="5045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4284000" />
+    <option name="totallyTimeSpent" value="5045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1635" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="JRebel" side_tool="true" />
       <window_info id="Image Layers" />
@@ -250,11 +174,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24984306" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24984306" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -302,8 +226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pers/phd/simply/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="460">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
