@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: simply-api-gateway
+server:
+  port: 5555
+zuul:
+  routes:
+    simply-api-url:
+      path: /simply-api-url/**
+      url: http://192.168.17.158:9001/
