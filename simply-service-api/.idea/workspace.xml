@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28269ea9-7fb5-4402-95b5-e44d49fdf620" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/phd/simply/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/phd/simply/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simply-api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simply-api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simply-api-gateway/src/main/java/pers/phd/simplyapigateway/SimplyApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simply-api-gateway/src/main/java/pers/phd/simplyapigateway/SimplyApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simply-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../simply-api-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            <state relative-caret-position="386">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pers/phd/simply/dto/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="300">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pers/phd/simply/service/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
-              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +105,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,6 +116,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,32 +159,26 @@
       <option name="presentableId" value="Default" />
       <updated>1544953317524</updated>
       <workItem from="1544953322653" duration="5045000" />
+      <workItem from="1546003137730" duration="120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5045000" />
+    <option name="totallyTimeSpent" value="5165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1635" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24984306" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25298178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -191,33 +186,34 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.32956687" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32956687" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pers/phd/simply/dto/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="300">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -227,10 +223,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pers/phd/simply/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
         </state>
       </provider>
     </entry>

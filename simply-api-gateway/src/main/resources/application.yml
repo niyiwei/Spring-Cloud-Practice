@@ -5,6 +5,26 @@ server:
   port: 5555
 zuul:
   routes:
-    simply-api-url:
-      path: /simply-api-url/**
-      url: http://192.168.17.158:9001/
+    # 配置直接转发
+    api-a-url:
+      path: /api-a-url/**
+      url: http://localhost:8000/
+    api-b-url:
+      path: /api-b-url/**
+      url: http://localhost:9001/
+    # 配置使用服务发现
+    api-aa:
+      path: /api-aa/**
+      serviceId: simply-provider
+    api-bb:
+      path: /api-bb/**
+      serviceId: feign-consumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+#ribbon:
+#  ReadTimeout: 60000
+#  ConnectTimeout: 60000
+#  eureka:
+#    enabled: true
