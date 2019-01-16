@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Slf4j
 public class FooController {
-    @Value("${foo:ttttt}")
+    @Value("${foo:default-foo}")
     private String foo;
 
-    @Value("${overview}")
+    @Value("${overview:default-overview}")
     private String overview;
 
     @GetMapping(path = "/test")
