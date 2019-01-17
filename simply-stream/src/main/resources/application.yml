@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: simple-stream
+  cloud:
+    stream:
+      bindings:
+        input:
+          destionation: raw-sensor-data
+          group: simple-test
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: springcloudbus
+    password: springcloud
+server:
+  port: 6000
+logging:
+  level:
+    root: info
+    pers.phd: debug
