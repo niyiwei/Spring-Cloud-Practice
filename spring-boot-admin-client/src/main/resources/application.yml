@@ -1,0 +1,17 @@
+server:
+  port: 4000
+spring:
+  application:
+    name: spring-boot-admin-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

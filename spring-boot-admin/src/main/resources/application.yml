@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: spring-boot-server
+  boot:
+    admin:
+      ui:
+        title: 我的SpringBootAdmin标题
+  security:
+    user:
+      name: "admin"
+      password: "admin"
+server:
+  port: 7000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+  instance:
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: ${spring.security.user.password}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
