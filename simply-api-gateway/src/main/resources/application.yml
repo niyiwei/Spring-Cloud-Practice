@@ -19,6 +19,11 @@ zuul:
     api-bb:
       path: /api-bb/**
       serviceId: feign-consumer
+    csdn-url:
+      path: /csdn/**
+      url: https://blog.csdn.net/
+  # 请求前缀
+  prefix: /v1
 eureka:
   client:
     service-url:
