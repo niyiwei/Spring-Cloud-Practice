@@ -19,9 +19,9 @@ zuul:
     api-bb:
       path: /api-bb/**
       serviceId: feign-consumer
-    csdn-url:
-      path: /csdn/**
-      url: https://blog.csdn.net/
+    add_request_header_route:
+      path: /httpbin/**
+      url: http://httpbin.org:80/
   # 请求前缀
   prefix: /v1
 eureka:
