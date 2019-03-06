@@ -1,6 +1,6 @@
 spring:
   application:
-    name: simply-api-gateway
+    name: simply-api-zuul
 server:
   port: 5555
 zuul:

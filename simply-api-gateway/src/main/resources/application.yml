@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: simply-api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: path_route
+          uri: http://httpbin.org
+          predicates:
+            - Path=/get
+          filters:
+            - AddRequestHeader=X-Request-Foo, Bar
+        - id: test_route
+          uri: http://localhost:8080/
+          predicates:
+            - Path=/test/**
+          filters:
+            - AddRequestHeader=X-Request-Foo, Test
+server:
+  port: 6666
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
