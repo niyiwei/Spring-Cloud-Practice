@@ -13,10 +13,10 @@ import java.util.Objects;
 
 
 @SpringBootApplication
-public class SimplyApiGatewayApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SimplyApiGatewayApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 //	@Bean
