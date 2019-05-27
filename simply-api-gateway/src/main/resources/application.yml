@@ -5,21 +5,36 @@ spring:
     gateway:
       routes:
         - id: path_route
+          # 定义目标url
           uri: http://httpbin.org
           predicates:
+            # Path
             - Path=/get
           filters:
             - AddRequestHeader=X-Request-Foo, Bar
+#            - RequestRateLimiter=2, 2, '#{@userkeyresolver}'
+            - name: RequestRateLimiter
+              args:
+                key-resolver: '#{@userKeyResolver}'
+                redis-rate-limiter.replenishRate: 1
+                redis-rate-limiter.burstCapacity: 2
         - id: test_route
           uri: http://localhost:8080/
           predicates:
             - Path=/test/**
           filters:
             - AddRequestHeader=X-Request-Foo, Test
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+
 server:
-  port: 6666
+  port: 7000
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:1111/eureka/
+    enabled: false
+
